@@ -1,0 +1,25 @@
+{
+  "build_id": "f4df6517dcc4684ed0aecbf538bf77b55fbf4486",
+  "files": {
+    "main.js": [
+      "chunk-GI7LLYGM.js",
+      "chunk-RS4YOACS.js"
+    ],
+    "deserializer.js": [],
+    "signals.js": [
+      "chunk-GI7LLYGM.js",
+      "chunk-J7VZLBUQ.js",
+      "chunk-RS4YOACS.js"
+    ],
+    "chunk-GI7LLYGM.js": [],
+    "island-quiz.js": [
+      "chunk-J7VZLBUQ.js",
+      "chunk-RS4YOACS.js"
+    ],
+    "chunk-J7VZLBUQ.js": [
+      "chunk-RS4YOACS.js"
+    ],
+    "chunk-RS4YOACS.js": [],
+    "metafile.json": []
+  }
+}
