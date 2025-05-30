@@ -7,7 +7,8 @@ export const handler: Handlers = {
     let score = 0;
 
     for (const [id, selected] of Object.entries(userAnswers)) {
-      const [correct] = [...db.query("SELECT correct FROM questions WHERE id = ?", [id])][0];
+      const [correct] =
+        [...db.query("SELECT correct FROM questions WHERE id = ?", [id])][0];
       if (correct === selected) score++;
     }
 

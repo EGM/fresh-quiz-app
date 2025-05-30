@@ -7,7 +7,7 @@ export const handler: Handlers = {
     const questions = rows.map(([id, question, options]) => ({
       id,
       question,
-      options: JSON.parse(String(options))
+      options: JSON.parse(String(options)),
     }));
 
     return Response.json(questions);

@@ -1,4 +1,4 @@
-import db from "./lib/db.ts"
+import db from "./lib/db.ts";
 
 db.execute(`
   INSERT INTO users (username,email,password)
@@ -171,4 +171,4 @@ db.execute(`
     (154,'Which one of the following is not a hydrate?','[{"option":"A","text":"alum"},{"option":"B","text":"blue stone"},{"option":"C","text":"sodium nitrate"},{"option":"D","text":"ferrous sulfate"}]','C');
 `);
 
-db.close()
+db.close();
