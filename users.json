@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "John",
+    "email": "jladuke@palmcoastgov.com",
+    "password": "$2a$10$fJdvRB9OhGXzIhDVM8y7c.K6wp3IBvRp0ycEwLo8T8y6EBryi2tXi"
+  },
+  {
+    "id": 2,
+    "name": "Dan",
+    "email": "dniemann@palmcoastgov.com",
+    "password": "$2a$10$JgqBBxQAsi3I.p1D./Iul.mT66l/5qp2ujBb9WrLalprWB6BL/g.u"
+  },
+  {
+    "id": 3,
+    "name": "Eric",
+    "email": "eboucher@palmcoastgov.com",
+    "password": "$2a$10$jEYNp1hrtMPAZymVwzXtnebW2W5O7MxglERkcLre/ewHafBM5JBIK"
+  }
+]

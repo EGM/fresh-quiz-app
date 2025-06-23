@@ -10,6 +10,7 @@ export const handler: Handlers = {
       options: JSON.parse(String(options)),
     }));
 
+    console.log(JSON.stringify(questions[0]))
     return Response.json(questions);
   },
 };

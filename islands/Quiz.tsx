@@ -1,7 +1,8 @@
 import { useEffect, useState } from "preact/hooks";
+import Question from "../question.ts";
 
 export default function Quiz() {
-  const [questions, setQuestions] = useState([]);
+  const [questions, setQuestions] = useState<Question[]>([]);
   const [answers, setAnswers] = useState({});
 
   useEffect(() => {
@@ -10,7 +11,7 @@ export default function Quiz() {
       .then(setQuestions);
   }, []);
 
-  const handleChange = (id, option) => {
+  const handleChange = (id: number, option: string) => {
     setAnswers({ ...answers, [id]: option });
   };
 
@@ -28,7 +29,7 @@ export default function Quiz() {
     <section>
       {questions.map((q) => (
         <div key={q.id} class="card">
-          <p>{q.question}</p>
+          <p>{q.id}. {q.question}</p>
           {q.options.map((opt, i) => (
             <p>
               <label key={i}>
